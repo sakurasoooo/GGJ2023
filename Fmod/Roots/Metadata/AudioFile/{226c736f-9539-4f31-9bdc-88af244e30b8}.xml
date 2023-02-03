@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{226c736f-9539-4f31-9bdc-88af244e30b8}">
+		<property name="assetPath">
+			<value>Forest_Day_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>120.09360544217687</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bf575e25-564c-4aa2-92e1-c5b5f8ef8692}</destination>
+		</relationship>
+	</object>
+</objects>
