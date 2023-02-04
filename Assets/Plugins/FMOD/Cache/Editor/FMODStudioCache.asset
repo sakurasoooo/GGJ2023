@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Fmod/Roots/Build/HTML5/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638110430376892801
+  lastModified: 638110605065105665
   FileSizes: []
   Exists: 1
 --- !u!114 &-2876855083968282227
@@ -33,10 +33,10 @@ MonoBehaviour:
   Path: Fmod/Roots/Build/HTML5/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638110430376903213
+  lastModified: 638110605065111516
   FileSizes:
   - Name: 
-    Value: 816
+    Value: 918
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -54,15 +54,62 @@ MonoBehaviour:
   - {fileID: -2876855083968282227}
   - {fileID: 9001295481009853861}
   - {fileID: -7151537982044703940}
+  - {fileID: 3830509825002457151}
   EditorEvents:
   - {fileID: 4207039155748266577}
+  - {fileID: 358321352610251769}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7151537982044703940}
   StringsBanks:
   - {fileID: -2876855083968282227}
-  cacheTime: 638110430394291866
+  cacheTime: 638110605065514932
   cacheVersion: 131601
+--- !u!114 &358321352610251769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level1
+  Guid:
+    Data1: 1993962586
+    Data2: 1125734554
+    Data3: -650568266
+    Data4: 1616968431
+  Banks:
+  - {fileID: 3830509825002457151}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 70736
+--- !u!114 &3830509825002457151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Fmod/Roots/Build/HTML5/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638110605065514932
+  FileSizes: []
+  Exists: 1
 --- !u!114 &4207039155748266577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,6 +152,6 @@ MonoBehaviour:
   Path: Fmod/Roots/Build/HTML5/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638110430394291866
+  lastModified: 638110605065340085
   FileSizes: []
   Exists: 1
