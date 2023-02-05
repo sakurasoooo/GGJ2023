@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5411463867077834213}
   - component: {fileID: 5411463867077834218}
   - component: {fileID: 5260881931293909703}
+  - component: {fileID: -2374708391920106681}
   m_Layer: 8
   m_Name: Roots
   m_TagString: Root
@@ -151,3 +152,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.26202056, y: 0.61491287}
   m_EdgeRadius: 0
+--- !u!114 &-2374708391920106681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411463867077834219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c29ca7ef7727e44cba3e5e51ba01b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 34
+  attackLayer:
+    serializedVersion: 2
+    m_Bits: 512
